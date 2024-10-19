@@ -44,7 +44,7 @@ This project implements a real-time signal detection system using a wooden board
     ![Board Setup](images/interface_full.PNG)
     *Figure 4: Pygame interface receiving signals from the slots on the wooden board.*
     
-## Installation
+## Code Installation (You will need to set up your signal acquisition system first.)
 
 1. Clone the repository:
    ```bash
