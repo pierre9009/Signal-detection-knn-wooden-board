@@ -1,0 +1,5 @@
+filelock
+numpy
+matplotlib
+pygame
+scipy
