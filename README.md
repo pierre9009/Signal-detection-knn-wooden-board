@@ -21,7 +21,7 @@ This project implements a real-time signal detection system using a wooden board
   - Signal Acquisition: Physical impacts on the wooden board are detected via piezoelectric sensors.
     ![Board Setup](images/planche.jpg)
     *Figure 1: Sensor-embedded wooden board used for signal detection (piezoelectric sensor on the upper left).*
-    ![Board Setup](images/carte_tiepie.jpg)
+    ![Board Setup](images/carte_tiepie.png)
     *Figure 2: The signal is acquired using a dedicated card with a sampling rate of 500 kHz (in accordance with the Shannon-Nyquist theorem).*
     
   - Signal Processing: The raw signal is processed using normalization and inter-correlation techniques.
@@ -30,12 +30,12 @@ This project implements a real-time signal detection system using a wooden board
     We implemented three classification methods: k-NN, average, and median.
     First, we build a database of 12 signals for each slot. Then, using the newly acquired signal, we apply inter-correlation to calculate a resemblance score with each sample in the database.
     Finally, depending on the method selected, the program processes this score differently.
-    ![Board Setup](images/schéma_methodes.jpg)
+    ![Board Setup](images/schéma_methodes.png)
     *Figure 3: Schematic showing the different classification methods.*
 
   - Visualization: A real-time interface displays the classification results, including animations and audio feedback.
     We designed a simple interface that allows children to discover animals in an interactive and playful way, encouraging physical touch.
-    ![Board Setup](images/interface_full.jpg)
+    ![Board Setup](images/interface_full.PNG)
     *Figure 4: Pygame interface receiving signals from the slots on the wooden board.*
     
 ## Installation
