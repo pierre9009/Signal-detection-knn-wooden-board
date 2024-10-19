@@ -1,0 +1,20 @@
+{
+    "pathname": ".\\Data\\SAVE\\",
+    "pathname_db": ".\\Data\\DB\\",
+    "basename": "data 01_01_",
+
+    "nb_case": 6,
+    "knn":3,
+
+    "chemin_interface": ".\\interface.py",
+    "chemin_communication" : ".\\case_touchee.json",
+
+    "chemin_animal_couleur":".\\Interface\\Animals\\",
+    "chemin_animal_noir":".\\Interface\\Animals_noir\\",
+    "chemin_animal_audio":".\\Interface\\Sons\\",
+
+    "background" : ".\\Interface\\Background\\background_farm.png",
+    "titre" : ".\\Interface\\Background\\title_im.png",
+    "pig" : ".\\Interface\\Background\\pig_title.png",
+    "pig_head" : ".\\Interface\\Background\\pig_head.png"
+}
