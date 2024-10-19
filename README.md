@@ -31,7 +31,7 @@ This project implements a real-time signal detection system using a wooden board
   - **Signal Processing**: The raw signal is processed using normalization and inter-correlation techniques.
 
   - **Classification**: The processed signal is classified using the k-NN algorithm to identify the correct impact location.  
-    We implemented three classification methods: k-NN, average, and median.
+    We implemented three classification methods: k-NN, average, and median.  
     First, we build a database of 12 signals for each slot. Then, using the newly acquired signal, we apply inter-correlation to calculate a resemblance score with each sample in the database.
     Finally, depending on the method selected, the program processes this score differently.
     
